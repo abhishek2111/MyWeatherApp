@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.newweatherapp.MainActivity" >
+
+    <item
+        android:id="@+id/change_city"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/change_ciy"/>
+    <item
+        android:id="@+id/get_location"
+        android:icon="@drawable/ic_action_place"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/get_location"/>
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/share"/>
+    <item
+        android:id="@+id/Rate"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/Rate"/>
+    
+</menu>
